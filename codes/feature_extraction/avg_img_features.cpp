@@ -107,7 +107,7 @@ int main(){
 				}
 				Mat mergedavgImageRGBchannelsImage;
 				merge(avgImageRGBchannels2, mergedavgImageRGBchannelsImage);
-				str = get_string_id2(j + 10000, id, "LBPofavgImg\\");
+				str = get_string_id2(j + 100000, id, "LBPofavgImg\\");
 				imwrite(str, mergedavgImageRGBchannelsImage);
 			}
 		}
