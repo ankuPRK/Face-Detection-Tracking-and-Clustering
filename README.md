@@ -1,12 +1,13 @@
 # Face-Detection-Tracking-and-Clustering
 We detect and track faces in video, then extract features from those face tracks 
 and try to cluster them into given number of Clusters, each Cluster representing a unique person.
-To get a full idea of our project, refer to the file "presentation.pdf". Results were obtained on video:
+To get a full idea of our project, refer to the file "ppt_explaining_the_project.pdf". Results were obtained on video:
 https://youtu.be/A1fVcj29xhk
 
 Running the project on a video-file involves 4 steps:
 
 1) Shot Detection:
+
 We need the information of shots from the video. The shot-detection is done using Python.
 
 Application used is ShotDetect by John Mathe: https://github.com/johmathe/Shotdetect
@@ -36,15 +37,17 @@ Now add the "main_for_shots.cpp" file in the OpenCV project with DLib. Add your 
 at the cpp file's location. 
 
 3) Feature Extraction:
+
 Copy the "data" folder created in Step-2, and 
 paste it at the location of the Feature Extraction cpp files. 
 Run the .cpp files then.
 
 4) Clustering:
-is done in Python. Copy the folders generated in step3 and paste them where the Python files are.
+
+Is done in Python. Copy the folders generated in step3 and paste them where the Python files are.
 
 If features are generated using "avg_img_features.cpp", run "Clustering_basic_feats.py"
-results will be stored in "resultsAVG/"
+results will be stored in "resultsAVG/".
 
 If features are generated using "3D_track_features.cpp", run "Clustering_adv_feats.py"
-results will be stored in "results/"
+results will be stored in "results/".
