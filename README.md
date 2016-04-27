@@ -1,8 +1,10 @@
 # Face-Detection-Tracking-and-Clustering
 We detect and track faces in video, then extract features from those face tracks 
 and try to cluster them into given number of Clusters, each Cluster representing a unique person.
+To get a full idea of our project, refer to the file "presentation.pdf". Results were obtained on video:
+https://youtu.be/A1fVcj29xhk
 
-Running the project on a Video involves 4 steps:
+Running the project on a video-file involves 4 steps:
 
 1) Shot Detection:
 We need the information of shots from the video. The shot-detection is done using Python.
