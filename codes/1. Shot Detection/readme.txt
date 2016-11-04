@@ -3,7 +3,7 @@ The shot-detection is done using Python.
 Application used is ShotDetect by John Mathe: https://github.com/johmathe/Shotdetect
 ReadMe on this GitHub page describes how to use the app via command line.
 
-This app is available for Ubuntu: sudo apt-get install ShotDetect
+This app is available for Ubuntu: sudo apt-get install shotdetect
 
 After running app on your video, a folder will be generated. Paste the 
 "xml_parser.py" file (available here) in that folder and run it. 
